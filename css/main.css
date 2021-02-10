@@ -1,0 +1,38 @@
+/*top start*/
+.top{width:100%;background-image:url("../images/background1.jpg");height:150px;}
+.top p.pinf{text-align:center;top:0;left:550px;font-family:Xingkai SC;font-size:25px;font-weight:bold;}
+.top p.jiaz{text-align:center;top:25px;left:750px;font-family:Xingkai SC;font-size:25px;font-weight:bold;}
+.top p.bulang{position:absolute;top:100px;left:1050px;font-family:"Times New Roman",serif;font-size:20px;font-weight:bold;}
+/*top end*/
+/*nav start*/
+.nav{width:100%;}
+.nav .nav_c{width:100%;height:50px;background:#ddd;border-radius:3px;}
+.nav .nav_c ul li{float:left;width:150px;text-align:center;}
+.nav .nav_c ul li a{color:#404040;display:block;border-radius:5px;width:80px;line-height:40px;margin-top:5px;text-decoration:none}
+.nav .nav_c ul li a.on{color:#404040;box-shadow:0 1px 5px #000;}
+/*nav end*/
+/*intro start*/
+.intro .intro-box{
+background-image:url("../images/Reflection 1.jpg");
+}
+.intro .intro-box header{font-size:80px;text-align:center;color:white;
+
+}
+/*One start*/
+.box1 {font-family:"plantc",serif;background-image:url("../images/Reflection 2.jpg");}
+.box1 .box2{font-weight:bold;font-size:60px;text-align:center;text-shadow: 5px 5px 5px #777474;}
+.box1 .box3{font-family:"plantc", serif;font-weight:bold;font-size:25px;border-style:solid;border-radius:10px;margin-left:1100px;margin-right:50px;margin-top:20px;padding-left:25px;
+    padding-right:25px;border-width:0.5px;box-shadow:0 1px 5px #000;background-color:white;text-align:center;}
+.box1 .box4{font-family:"plantc", serif;font-weight:bold;font-size:25px;border-style:solid;border-radius:10px;margin-left:1100px;margin-right:50px;margin-top:20px;padding-left:25px;
+    padding-right:25px;border-width:0.5px;box-shadow:0 1px 5px #000;background-color:white;text-align:center;}
+.box1 .box5{font-family:"plantc", serif;font-weight:bold;font-size:25px;border-style:solid;border-radius:10px;margin-right:1100px;margin-left:50px;margin-top:20px;padding-left:25px;
+    padding-right:25px;border-width:0.5px;box-shadow:0 1px 5px #000;background-color:white;text-align:center;}
+.box1 .box6{font-family:"plantc", serif;font-weight:bold;font-size:25px;border-style:solid;border-radius:10px;margin-right:1100px;margin-left:50px;margin-top:20px;padding-left:25px;
+    padding-right:25px;border-width:0.5px;box-shadow:0 1px 5px #000;background-color:white;text-align:center;}
+/*one eneds*/
+
+/*two start*/
+.myself-page {font-family:"plantc",serif;background-image:url("../images/Reflection 3.jpg");}
+.myself-page h1{text-align:center;font-weight:bold;font-size:40px;}
+.myself-page .myself{font-family:"plantc", serif;font-weight:bold;font-size:30px;;border-style:solid;border-radius:10px;margin-right:200px;margin-left:200px;margin-top:20px;padding-left:25px;
+    padding-right:25px;border-width:0.5px;box-shadow:0 1px 5px #000;background-color:white;text-align:left;}
