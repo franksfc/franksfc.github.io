@@ -34,5 +34,10 @@ background-image:url("../images/Reflection 1.jpg");
 /*two start*/
 .myself-page {font-family:"plantc",serif;background-image:url("../images/Reflection 3.jpg");}
 .myself-page h1{text-align:center;font-weight:bold;font-size:40px;}
-.myself-page .myself{font-family:"plantc", serif;font-weight:bold;font-size:30px;;border-style:solid;border-radius:10px;margin-right:200px;margin-left:200px;margin-top:20px;padding-left:25px;
+.myself-page .myself{font-family:"plantc", serif;font-weight:bold;font-size:30px;border-style:solid;border-radius:10px;margin-right:200px;margin-left:200px;margin-top:20px;padding-left:25px;
     padding-right:25px;border-width:0.5px;box-shadow:0 1px 5px #000;background-color:white;text-align:left;}
+/*two ends*/
+
+/*three start*/
+.visit {background-image:url("../images/Reflection 4.jpg");}
+.visit a{font-family:"plantc", serif;font-weight:bold;font-size:70px;text-decoration:none;color:white;}
