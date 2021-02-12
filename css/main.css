@@ -12,32 +12,31 @@
 .nav .nav_c ul li a.on{color:#404040;box-shadow:0 1px 5px #000;}
 /*nav end*/
 /*intro start*/
-.intro .intro-box{
-background-image:url("../images/Reflection 1.jpg");
+.intro .intro-box{height:1000px;
+background-image:url("../images/fisking2.jpg");
 }
-.intro .intro-box header{font-size:80px;text-align:center;color:white;
-
-}
+.intro .intro-box header{font-size:60px;text-align:center;color: #565688;}
 /*One start*/
-.box1 {font-family:"plantc",serif;background-image:url("../images/Reflection 2.jpg");}
+.box1 {font-family:"plantc",serif;background-image:url("../images/boating2.jpg");height:2000px;}
 .box1 .box2{font-weight:bold;font-size:60px;text-align:center;text-shadow: 5px 5px 5px #777474;}
-.box1 .box3{font-family:"plantc", serif;font-weight:bold;font-size:25px;border-style:solid;border-radius:10px;margin-left:1100px;margin-right:50px;margin-top:20px;padding-left:25px;
+.box1 .box3{font-family:"plantc", serif;font-weight:bold;font-size:25px;border-style:solid;border-radius:10px;float:left;width:40%;margin-left:10px;margin-top:20px;padding-left:25px;
     padding-right:25px;border-width:0.5px;box-shadow:0 1px 5px #000;background-color:white;text-align:center;}
-.box1 .box4{font-family:"plantc", serif;font-weight:bold;font-size:25px;border-style:solid;border-radius:10px;margin-left:1100px;margin-right:50px;margin-top:20px;padding-left:25px;
+.box1 .box4{font-family:"plantc", serif;font-weight:bold;font-size:25px;border-style:solid;border-radius:10px;float:right;width:40%;margin-right:10px;margin-top:20px;padding-left:25px;
     padding-right:25px;border-width:0.5px;box-shadow:0 1px 5px #000;background-color:white;text-align:center;}
-.box1 .box5{font-family:"plantc", serif;font-weight:bold;font-size:25px;border-style:solid;border-radius:10px;margin-right:1100px;margin-left:50px;margin-top:20px;padding-left:25px;
+.box1 .box5{font-family:"plantc", serif;font-weight:bold;font-size:25px;border-style:solid;border-radius:10px;float:left;width:40%;margin-left:10px;margin-top:20px;padding-left:25px;
     padding-right:25px;border-width:0.5px;box-shadow:0 1px 5px #000;background-color:white;text-align:center;}
-.box1 .box6{font-family:"plantc", serif;font-weight:bold;font-size:25px;border-style:solid;border-radius:10px;margin-right:1100px;margin-left:50px;margin-top:20px;padding-left:25px;
+.box1 .box6{font-family:"plantc", serif;font-weight:bold;font-size:25px;border-style:solid;border-radius:10px;float:right;width:40%;margin-right:10px;margin-top:20px;padding-left:25px;
     padding-right:25px;border-width:0.5px;box-shadow:0 1px 5px #000;background-color:white;text-align:center;}
 /*one eneds*/
 
 /*two start*/
-.myself-page {font-family:"plantc",serif;background-image:url("../images/Reflection 3.jpg");}
+.myself-page {font-family:"plantc",serif;background-image:url("../images/bamboo2.jpg");}
 .myself-page h1{text-align:center;font-weight:bold;font-size:40px;}
-.myself-page .myself{font-family:"plantc", serif;font-weight:bold;font-size:30px;border-style:solid;border-radius:10px;margin-right:200px;margin-left:200px;margin-top:20px;padding-left:25px;
-    padding-right:25px;border-width:0.5px;box-shadow:0 1px 5px #000;background-color:white;text-align:left;}
+.myself-page .myself{font-family:"plantc", serif;font-weight:bold;font-size:20px;border-style:solid;border-radius:10px;margin-right:200px;margin-left:200px;margin-top:20px;padding-left:25px;
+    padding-right:25px;border-width:0.5px;box-shadow:0 1px 5px #000;background-color:white;text-align:left;line-height: 30px}
+.myself-page .myself h1{font-size:30px;font-weight:bold;}
 /*two ends*/
 
 /*three start*/
-.visit {background-image:url("../images/Reflection 4.jpg");}
-.visit a{font-family:"plantc", serif;font-weight:bold;font-size:70px;text-decoration:none;color:white;}
+.visit {background-image:url("../images/ink-drawing2.jpg");}
+.visit a{font-family:"plantc", serif;font-weight:bold;font-size:70px;text-decoration:none;color: #3d548c;}
