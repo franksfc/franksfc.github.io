@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Frank Song&#39;s Blog</title>
+  
+  <subtitle>Frank Song&#39;s Blog</subtitle>
+  <link href="http://franksfc.top/atom.xml" rel="self"/>
+  
+  <link href="http://franksfc.top/"/>
+  <updated>2024-01-05T06:53:04.298Z</updated>
+  <id>http://franksfc.top/</id>
+  
+  <author>
+    <name>Frank Song</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何在hexo上创建一篇文章</title>
+    <link href="http://franksfc.top/2024/01/04/ru-he-zai-hexo-shang-chuang-jian-yi-pian-wen-zhang/"/>
+    <id>http://franksfc.top/2024/01/04/ru-he-zai-hexo-shang-chuang-jian-yi-pian-wen-zhang/</id>
+    <published>2024-01-04T14:41:35.000Z</published>
+    <updated>2024-01-05T06:53:04.298Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;如何搭建一个hexo博客&lt;br&gt;如大家所见，本博客就是搭载在&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://franksfc.top/2024/01/02/hello-world/"/>
+    <id>http://franksfc.top/2024/01/02/hello-world/</id>
+    <published>2024-01-02T14:51:10.837Z</published>
+    <updated>2024-01-02T14:48:30.220Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
