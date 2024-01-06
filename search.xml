@@ -4,13 +4,19 @@
   
     
     <entry>
-      <title>如何在hexo上创建一篇文章</title>
-      <link href="/2024/01/04/ru-he-zai-hexo-shang-chuang-jian-yi-pian-wen-zhang/"/>
-      <url>/2024/01/04/ru-he-zai-hexo-shang-chuang-jian-yi-pian-wen-zhang/</url>
+      <title>晶体类型复习</title>
+      <link href="/2024/01/04/jing-ti-lei-xing-fu-xi/"/>
+      <url>/2024/01/04/jing-ti-lei-xing-fu-xi/</url>
       
-        <content type="html"><![CDATA[<p>如何搭建一个hexo博客<br>如大家所见，本博客就是搭载在</p>]]></content>
+        <content type="html"><![CDATA[<h2 id="晶体类型复习"><a href="#晶体类型复习" class="headerlink" title="晶体类型复习"></a>晶体类型复习</h2><p><strong>1，离子键</strong>：正负离子之间由静电作用（排斥和吸引）形成的化合物，例如第1，2族活泼金属与第16，17族活泼非金属之间。<br><strong>2，离子晶体</strong>：以离子键结合而成的化合物。含离子键的化合物必定是离子化合物。<br><strong>3，离子晶体特点：熔点较高，硬度较大，固体不导电，熔融成水溶液中导电</strong>。一般地，离子半径越小，离子电荷越多，熔点越高。<br><strong>4，分子晶体</strong>：分子间以分子间作用力结合而成的晶体：C60或CO2。<br><strong>5，分子晶体特点</strong>：<strong>熔沸点低，硬度小</strong>，一般不导电，存在单个分子。组成结构相似，相对分子质量越大，分子间作用力越大，熔点越高。<br><strong>6，分子晶体举例</strong>：大多数共价化合物，（酸，气态氢化物，有机物，非金属氧化物），非金属单质，稀有气体等等。<br><strong>7，共价晶体</strong>：相邻原子之间通过共价键直接结合成的三维空间网状结构，例如：金刚石，二氧化硅，单晶硅，Si3N4，SiC。<br>一般地，组成结构相似，原子半径越小，键长越短，共价键键能越大，熔点越高。<br><strong>8，如何判断晶体类型</strong>：<br>1）熔融状态下是否导电：导电为离子晶体<br>2）低熔沸点：分子晶体<br>3）不溶于一般溶剂：共价晶体<br><strong>9，Na2O2加入水中的化学键变化</strong>：旧的离子键、共价键断裂，新的共价键生成。因为水溶液所以没有离子键。<br><strong>10，极性键</strong>：不同种原子，偏向一方，非极性键反之。<br><strong>11，分子间作用力</strong>：范德华力、氢键<br><strong>12，金属键</strong>：金属正离子与自由电子之间的强烈相互作用，本质上是一种静电作用。<br><strong>13，金属键的特点</strong>：<br>1）<strong>导电性</strong>：自由粒子在外加电场的作用下发生定向移动。<br>2）<strong>导热性</strong>：自由电子与金属离子碰撞传递热量。<br>3）<strong>延展性</strong>：晶体中各原子层相对滑动相互作用仍保持<br><strong>金属晶体中，原子半径越大，金属键越弱；自由电子越多，金属键越强。</strong><br>温度越高，金属原子碰撞加剧，自由电子移动受阻，电阻越大<br>有光后自由电子能量升高，所以有光泽</p>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> 化学 </tag>
+            
+        </tags>
       
     </entry>
     
