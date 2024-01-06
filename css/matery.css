@@ -243,7 +243,12 @@ mark {
 .bg-color {
     background-image: linear-gradient(to right, #87CEEB 0%, #0000FF 100%);
 }
-
+@-webkit-keyframes rainbow {
+   /* 动态切换背景颜色. */
+}
+@keyframes rainbow {
+    /* 动态切换背景颜色. */
+}
 .text-color {
     color: #0f9d58 !important;
 }
