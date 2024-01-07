@@ -202,7 +202,7 @@
     <div class="drawer-box-head bg-color">
       <img class="drawer-box-head_logo lazyload placeholder" src="/medias/logo.png" class="lazyload placeholder" data-srcset="/medias/logo.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="logo">
       <h3 class="drawer-box-head_title">Frank Song&#39;s Blog</h3>
-      <h5 class="drawer-box-head_desc">Frank Song&#39;s Blog</h5>
+      <h5 class="drawer-box-head_desc">千磨万击还坚劲，任尔东西南北风</h5>
     </div>
     
     <div class="drawer-box-content">
@@ -264,16 +264,27 @@
           
             <li class="drawer-box-content_item" style="position: relative;">
               
-                <a href="javascript:;" class="drawer-menu-item-link has-children" @click="openOrCloseMenu(5)">
+                <a href="/contact" class="drawer-menu-item-link">
+                  
+                    <i class="fas fa-comments" aria-hidden="true"></i>
+                  
+                  <span class="name">留言板</span>
+                </a>
+              
+            </li>
+          
+            <li class="drawer-box-content_item" style="position: relative;">
+              
+                <a href="javascript:;" class="drawer-menu-item-link has-children" @click="openOrCloseMenu(6)">
                   <span>
                     
                       <i class="fas fa-link"></i>
                     
                     <span class="name">更多</span>
                   </span>
-                  <i class="fas fa-chevron-left arrow " :class="{'icon-rotate': isOpen(5)}" aria-hidden="true"></i>
+                  <i class="fas fa-chevron-left arrow " :class="{'icon-rotate': isOpen(6)}" aria-hidden="true"></i>
                 </a>
-                <ul class="drawer-sub-menu" v-if="isOpen(5)">
+                <ul class="drawer-sub-menu" v-if="isOpen(6)">
                   
                   <li>
                     <a href="/gallery">
@@ -294,7 +305,7 @@
                   </li>
                   
                   <li>
-                    <a href="/me">
+                    <a href="/about">
                       
                       <i class="fas fa-film" style="margin-top: -20px;"></i>
                       
@@ -442,6 +453,17 @@
           
             <li class="menu-item" style="position: relative;">
               
+                <a href="/contact" class="menu-item-link" title="留言板">
+                  
+                    <i class="fas fa-comments" aria-hidden="true"></i>
+                  
+                  <span class="name">留言板</span>
+                </a>
+              
+            </li>
+          
+            <li class="menu-item" style="position: relative;">
+              
                 <a href="javascript:;" class="menu-item-link" title="更多">
                   
                     <i class="fas fa-link"></i>
@@ -470,7 +492,7 @@
                   </li>
                   
                   <li>
-                    <a href="/me">
+                    <a href="/about">
                       
                       <i class="fas fa-film" style="margin-top: -20px;"></i>
                       
@@ -1708,8 +1730,8 @@
         <div class="webinfo-item">
           <div>最后活动时间：</div>
           
-            <div id="last-update" style="display: none;">Sat Jan 06 2024 22:04:06 GMT+0800 (中国标准时间)</div>
-            <div id="last-update-show">2024-01-06 日</div>
+            <div id="last-update" style="display: none;">Sun Jan 07 2024 10:37:38 GMT+0800 (中国标准时间)</div>
+            <div id="last-update-show">2024-01-07 日</div>
           
         </div>
         
@@ -1759,7 +1781,7 @@
           try {
             document.getElementById('last-update-show').innerHTML = timeago(new Date(lastUpDate));
           } catch (error) {
-            document.getElementById('last-update-show').innerHTML = '2024-01-06 日';
+            document.getElementById('last-update-show').innerHTML = '2024-01-07 日';
           }
         </script>
         
