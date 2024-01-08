@@ -19,21 +19,6 @@
   <link href="/js/swiper/swiper@5.4.1.min.css" rel="stylesheet">
   
   
-    <script>
-        var themeModelId = '';
-        if (themeModelId) {
-            localStorage.setItem('modelId', themeModelId);
-        }
-    </script>
-    
-    <script defer src="https://cdn.jsdelivr.net/gh/yuang01/live2d-widget@latest/autoload.js"></script>
-    <script>
-        var live2dOpen = eval('true') || false;
-        if (!live2dOpen) {
-            localStorage.setItem('waifu-display', 1609323474481);
-        }
-    </script>
-  
   
   
 <link rel="stylesheet" href="/css/animate.min.css">
@@ -60,6 +45,8 @@
     <script defer src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
     <link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
 
+    
+        <script src="/js/valine/index.js"></script>
     
     
     <!-- 依赖于jquery和vue -->
@@ -315,9 +302,9 @@
                   <li>
                     <a href="/talk">
                       
-                      <i class="fa fa-comments" style="margin-top: -20px;"></i>
+                      <i class="fa-solid fa-quote-left" style="margin-top: -20px;"></i>
                       
-                      <span>简单说一说</span>
+                      <span>说一说</span>
                     </a>
                   </li>
                   
@@ -495,9 +482,9 @@
                   <li>
                     <a href="/talk">
                       
-                      <i class="fa fa-comments" style="margin-top: -20px;"></i>
+                      <i class="fa-solid fa-quote-left" style="margin-top: -20px;"></i>
                       
-                      <span>简单说一说</span>
+                      <span>说一说</span>
                     </a>
                   </li>
                   
@@ -659,7 +646,7 @@
               </div>
               <div class="flag-text">
                 <div class="flag-text-content">
-                  <div class="title ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">青墨书晚风</div>
+                  <div class="title ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">陌上花开</div>
                   
                     <div class="ani animated default-excerpt" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">
                       <vue-typed-js :strings="defaultDesc" :loop="defaultDescTypedLoop" :type-speed="100" :back-speed="50">
@@ -670,10 +657,8 @@
                 </div>
                 <div style="display: flex;" class="flag-text-btns">
                   
-                    <div class="ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s"><a target="_blank" rel="noopener" href="https://yuang01.gitee.io/2021/02/08/hexo-theme-bamboo-new/" class="read-more swiper-btn-color" style="display: inline-block; z-index:1;">阅读文档</a></div>
+                    <div class="ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s"><a href="https://franksfc.github.io/about" class="read-more swiper-btn-color" style="display: inline-block; z-index:1;">关于我</a></div>
                   
-                  
-                    <div class="ani animated" style="margin-left: 10px;" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s"><a target="_blank" rel="noopener" href="https://gitee.com/yuang01/hexo-theme-bamboo/repository/archive/dev.zip" class="read-more swiper-btn-color2" style="display: inline-block; z-index:1;border: 1px solid white;">下载主题</a></div>
                   
                 </div>
               </div>
@@ -1258,10 +1243,10 @@
     <!-- 首页座右铭 -->
     
   <div class="motto">
-      <h3 class="motto-title">座右铭</h3>
+      <h3 class="motto-title">个性签名</h3>
       <div class="motto-content">
         <p>
-          沉淀后我愿意做个温暖的人，有自己的喜好，有自己的原则，有自己的信仰，不急功近利，不浮夸轻薄。宠辱不惊，淡定安逸，心静如水，不忘初心，方得始终。——凌茜  
+          躬学笃志，峻德克明。江山指点，激浊扬清。自反而不缩，吾不惴焉。人生如露，大梦一十八年。天下豪杰岂不笑我辈痴绝耶？  
         </p> 
       </div>
   </div>
@@ -1325,10 +1310,27 @@
         :data="listData"
         :class-option="classOption"
         class="warp"
-        style="height: 0px"
+        style="height: 30px"
       >
         <ul class="index-notice-content__ul">
           
+          
+            <li>
+              
+                <div class="index-notice-content__title">
+                  
+                    <span title="博客建站啦，欢迎光临！欢迎光临！" style="color:red">
+                      博客建站啦，欢迎光临！欢迎光临！
+                    </span>
+                  
+                </div>
+                
+                  <div class="index-notice-content__date" style="color:red">
+                    2024-01-01
+                  </div>
+                
+              
+            </li>
            
         </ul>
       </vue-seamless-scroll>
@@ -1343,7 +1345,7 @@
 <script>
   var seamless = JSON.parse('false');
   seamless = seamless ? 0 : 30;
-  var listData = '' || '';
+  var listData = '[object Object]' || '';
   listData = listData.split(',');
   var vm = new Vue({
     el: '#appIndexNotice',
@@ -1530,10 +1532,10 @@
     
       <div class='text'>
         
-          <h2>青墨书晚风</h2>
+          <h2>陌上花开</h2>
         
         
-          <p>煮酒洗净尘嚣，论知交。</p>
+          <p>柳絮风轻，梨花雨细。</p>
 
         
         
@@ -1555,7 +1557,7 @@
           
         
           
-            <a href="mailto:me@xxx.com"
+            <a href="mailto:franksfc@126.com"
               class="social fas fa-envelope flat-btn"
               target="_blank"
               rel="external nofollow noopener noreferrer">
@@ -1564,7 +1566,7 @@
           
         
           
-            <a href="https://github.com/yuang01/hexo-theme-bamboo"
+            <a href="https://github.com/franksfc/"
               class="social fab fa-github flat-btn"
               target="_blank"
               rel="external nofollow noopener noreferrer">
@@ -1573,7 +1575,7 @@
           
         
           
-            <a href="tencent://AddContact/?fromId=50&amp;fromSubId=1&amp;subcmd=all&amp;uin=你的qq号码"
+            <a href="tencent://AddContact/?fromId=50&amp;fromSubId=1&amp;subcmd=all&amp;uin=2451229981"
               class="social fab fa-qq flat-btn"
               target="_blank"
               rel="external nofollow noopener noreferrer">
@@ -1728,7 +1730,7 @@
           <div id="webinfo-runtime-count" publish_date="03/24/2020 21:34:09"></div>
         </div>
         <script>
-          var BirthDay = new Date(new Date('2020/01/01'));
+          var BirthDay = new Date(new Date('2024/01/01'));
           var today = new Date();
           var timeold = (today.getTime() - BirthDay.getTime());
           var daysold = Math.floor(timeold / (24 * 60 * 60 * 1000));
@@ -1761,7 +1763,7 @@
         <div class="webinfo-item">
           <div>最后活动时间：</div>
           
-            <div id="last-update" style="display: none;">Mon Jan 08 2024 12:11:48 GMT+0800 (中国标准时间)</div>
+            <div id="last-update" style="display: none;">Mon Jan 08 2024 14:22:27 GMT+0800 (中国标准时间)</div>
             <div id="last-update-show">2024-01-08 日</div>
           
         </div>
@@ -2019,7 +2021,7 @@
       
         
           <div class="footer-copyright">
-            <p>Copyright © 2019 - 2020 <a target="_blank" rel="noopener" href="https://github.com/yuang01">yuang01</a> | Powered by <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/">Hexo</a> | Theme <a target="_blank" rel="noopener" href="https://github.com/yuang01/theme">Bamboo</a> </p>
+            <p>Copyright © 2019 - 2024 <a target="_blank" rel="noopener" href="https://github.com/franksfc">franksfc</a></p>
 
           </div>
         
@@ -2108,6 +2110,58 @@
     
     <!-- 渲染左下角音乐播放器 -->
     
+      <link rel="stylesheet" href="/js/aplayer/APlayer@1.10.1.min.css">
+<style>
+.aplayer .aplayer-lrc p {
+  
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px !important;
+}
+
+.aplayer .aplayer-lrc p.aplayer-lrc-current {
+  
+  font-size: 15px;
+  color: #42b983;
+}
+
+
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+  left: -66px !important;
+}
+
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+  left: 0px !important;
+}
+
+
+</style>
+<meting-js  
+  class=""
+  server="netease"
+  type="playlist"
+  id="5364469666"
+  fixed='true'
+  autoplay='false'
+  theme='#42b983'
+  loop='all'
+  order='random'
+  preload='auto'
+  volume='0.7'
+  list-folded='true'
+>
+</meting-js>
+
+<!-- <style>
+  #aplayer {
+    position: fixed;
+    left: 0;
+    bottom: 300px;
+  }
+</style> -->
+<script src="https://unpkg.com/aplayer@1.10.1/dist/APlayer.min.js"></script>
+<script src="https://unpkg.com/meting@2/dist/Meting.min.js"></script>
+    
 
     <!-- 图片放大 -->
     
@@ -2152,7 +2206,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.18.2/tocbot.css">
 
 <script>
-  var headerEl = 'h2, h3, h4',  //headers 
+  var headerEl = 'h2, h3, h4, h5',  //headers 
     content = '.post-detail',//文章容器
     idArr = {};  //标题数组以确定是否增加索引id
   //add #id
@@ -2506,68 +2560,141 @@
 <!-- 评论所需js -->
 
   
-    <script type="text/javascript">
-  var utteranceCommon = {};
+    <!-- 弹幕所需的css和js -->
+    
+  <!-- 弹幕插件 -->
+  <link href="/js/danmu/barrager.css" rel="stylesheet">
+  <script src="/js/danmu/jquery.barrager.js"></script>
 
-  function check_utterance() {
-    let isDark = JSON.parse(localStorage.getItem('dark')) || JSON.parse('false');
-    if (isDark) {
-      utteranceCommon.Theme = 'github-dark';
-    } else {
-      utteranceCommon.Theme = 'github-light';
-    }
+<!-- 具体js，请前往valine/script.ejs查看 -->
 
-    return document.getElementById("gitment-container");
-  }
-  comment_el = '#gitment-container';
-  load_utterance = function () {
+    <script>
+  var requiredFields = '';
+  requiredFields = requiredFields.split(',');
+  comment_el = '.comment';
+  let looperValine = null;
+  load_valine = function () {
     if ($(comment_el).length) {
-      // 匿名函数，防止污染全局变量
-      const HEAD = check_utterance();
+      var valine = new Valine({
+        el: '#vcomment',
+        path: window.location.pathname,
+        notify: false,
+        verify: false,
+        app_id: "xpYoC5sWbEXcToNCDcyvtRcw-gzGzoHsz",
+        app_key: "K2tczIxrif7mSZkX486sPBNW",
+        placeholder: "客官，说点什么吧",
+        avatar: "",
+        master: "",   //博主邮箱md5
+        tagMeta: ["博主","小伙伴","访客"],     //标识字段名
+        friends: "",
+        metaPlaceholder: { "nick": "昵称/QQ号", "mail": "邮箱" },
+        requiredFields: requiredFields,
+        enableQQ: true,
+      });
+      function debounce(fn) {
+        var timerID = null
+        return function () {
+          var arg = arguments[0]   //获取事件
+          if (timerID) {
+            clearTimeout(timerID)
+          }
+          timerID = setTimeout(function () {
+            fn(arg)              //事件传入函数
+          }, 200)
+        }
+      }
+      //查询评论 valine.Q('*').limit(7) -- 查询所有，限制7条, 下面的的代码是查询当前页面
+      var themeDanmu = eval('true');
+      var themeLoop = eval('true');
+      var themeLooperTime = '5000' || 5000;
+      var speed = '40' || 20;
+      var isBarrager = true;
+      if (themeDanmu == true) {
+        do_barrager();
+        if ($('.danmuBox').length <= 0) {
+          $('.navbar').append('<div class="danmuBox"><div class="danmuBtn open"><span class="danmuCircle"></span><span class="danmuText">弹幕</span></div></div>');
+        }
+        $('.danmuBtn').on('click', debounce(
+          function () {
+            if ($('.danmuBtn').hasClass('open')) {
+              $('.danmuBtn').removeClass('open')
+              clearInterval(looperValine);
+              $.fn.barrager.removeAll();
+            } else {
+              $('.danmuBtn').addClass("open");
+              do_barrager();
+            }
+          }
+        ))
+      }
+      function do_barrager() {
+        isBarrager && valine.Q(window.location.pathname).find().then(function (comments) {
+          // var num = 0; // 可以记录条数，循环调用的时候只取最新的评论放入弹幕中
+          var run_once = true;
+          var looper_time = themeLooperTime;
+          var total = comments.length;
+          // var looper = null;
+          var index = 0;
+          if (total > 0) {
+            barrager();
+          } else {
+            // 当评论数为0的时候，自动关闭弹幕
+            // $('.danmuBtn').removeClass('open');
+          }
+          function barrager() {
+            if (run_once) {
+              //如果是首次执行,则设置一个定时器,并且把首次执行置为false
+              looperValine = setInterval(barrager, looper_time);
+              run_once = false;
+            }
+            var content = comments[index]._serverData.comment;
+            var email = comments[index]._serverData.mail;
+            var link = comments[index]._serverData.link;
+            var newcontent = content.substring(0, 50).replace(/<[^>]+>/g, "");
+            //发布一个弹幕
+            const item = {
+              img: `https://q1.qlogo.cn/g?b=qq&nk=${email}&s=640`, //图片 
+              info: newcontent, //文字 
+              href: link, //链接 
+              close: true, //显示关闭按钮 
+              speed: speed, //延迟,单位秒,默认6 
+              color: '#fff', //颜色,默认白色 
+              old_ie_color: '#000000', //ie低版兼容色,不能与网页背景相同,默认黑色
+            }
+            $('body').barrager(item);
+            //索引自增
+            index++;
+            //所有弹幕发布完毕，清除计时器。
+            if (index == total) {
+              clearInterval(looperValine);
+              if (themeLoop === true) {
+                setTimeout(function () {
+                  do_barrager();
+                }, 5000);
+              } else {
+                $('.danmuBtn').removeClass('open');
+              }
+              return false;
+            }
 
-      var utterances = document.createElement('script');
-      utterances.type = 'text/javascript';
-      utterances.async = true;
-      utterances.setAttribute('issue-term', 'pathname')
-      utterances.setAttribute('theme', utteranceCommon.Theme)
-      utterances.setAttribute('repo', '')
-      utterances.crossorigin = 'anonymous';
-      utterances.src = 'https://utteranc.es/client.js';
-      // content 是要插入评论的地方
-      document.getElementById('gitment-container').appendChild(utterances);
-
+          }
+        })
+      }
     }
-  }
-
-  function dark_utterance() {
-    const HEAD = check_utterance();
-    if (!HEAD) return;
-    const message = {
-      type: 'set-theme',
-      theme: utteranceCommon.Theme
-    };
-    const utteranceIframe = document.querySelector('iframe');
-    utteranceIframe.contentWindow.postMessage(message, 'https://utteranc.es');
-  }
-
-  $(document).ready(load_utterance);
-  document.addEventListener('pjax:complete', function () {
-    load_utterance();
-  });
-
-  $('.dark').click(function () {
-    setTimeout(() => {
-      dark_utterance();
-    });
+  };
+  $(document).ready(load_valine);
+  document.addEventListener('pjax:send', function (e) {
+    
+      $('.danmuBox').length > 0 && $('.danmuBox').remove()
+      looperValine && clearInterval(looperValine);
+      $.fn.barrager.removeAll();
+    
   })
-
+  document.addEventListener('pjax:complete', function () {
+    load_valine();
+  });
 </script>
 
-<style>
-  .utterances {
-    max-width: inherit !important;
-  }
-</style>
   
 
 

@@ -56,28 +56,6 @@
     
     
     <entry>
-      <title>friends</title>
-      <link href="/friends/index.html"/>
-      <url>/friends/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>categories</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>about</title>
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
@@ -100,9 +78,20 @@
     
     
     <entry>
-      <title>gallery</title>
-      <link href="/gallery/index.html"/>
-      <url>/gallery/index.html</url>
+      <title>friends</title>
+      <link href="/friends/index.html"/>
+      <url>/friends/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -127,6 +116,17 @@
       <url>/talk/index.html</url>
       
         <content type="html"><![CDATA[<div class="getJsonTalk-api" api="/json/talk.json" isregular="3"></div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>gallery</title>
+      <link href="/gallery/index.html"/>
+      <url>/gallery/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
