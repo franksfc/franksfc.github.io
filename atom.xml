@@ -3,11 +3,11 @@
   <title>Frank Song&#39;s Blog</title>
   
   <subtitle>煮酒洗净尘嚣，论知交。</subtitle>
-  <link href="http://franksfc.top/atom.xml" rel="self"/>
+  <link href="https://franksfc.github.io/atom.xml" rel="self"/>
   
-  <link href="http://franksfc.top/"/>
+  <link href="https://franksfc.github.io/"/>
   <updated>2024-01-06T05:13:48.670Z</updated>
-  <id>http://franksfc.top/</id>
+  <id>https://franksfc.github.io/</id>
   
   <author>
     <name>Frank Song</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>晶体类型复习</title>
-    <link href="http://franksfc.top/2024/01/04/jing-ti-lei-xing-fu-xi/"/>
-    <id>http://franksfc.top/2024/01/04/jing-ti-lei-xing-fu-xi/</id>
+    <link href="https://franksfc.github.io/2024/01/04/jing-ti-lei-xing-fu-xi/"/>
+    <id>https://franksfc.github.io/2024/01/04/jing-ti-lei-xing-fu-xi/</id>
     <published>2024-01-04T14:41:35.000Z</published>
     <updated>2024-01-06T05:13:48.670Z</updated>
     
@@ -34,17 +34,17 @@
     
     
     
-    <category term="高中学习" scheme="http://franksfc.top/categories/%E9%AB%98%E4%B8%AD%E5%AD%A6%E4%B9%A0/"/>
+    <category term="高中学习" scheme="https://franksfc.github.io/categories/%E9%AB%98%E4%B8%AD%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="化学" scheme="http://franksfc.top/tags/%E5%8C%96%E5%AD%A6/"/>
+    <category term="化学" scheme="https://franksfc.github.io/tags/%E5%8C%96%E5%AD%A6/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://franksfc.top/2024/01/02/hello-world/"/>
-    <id>http://franksfc.top/2024/01/02/hello-world/</id>
+    <link href="https://franksfc.github.io/2024/01/02/hello-world/"/>
+    <id>https://franksfc.github.io/2024/01/02/hello-world/</id>
     <published>2024-01-02T14:51:10.837Z</published>
     <updated>2024-01-02T14:48:30.220Z</updated>
     
