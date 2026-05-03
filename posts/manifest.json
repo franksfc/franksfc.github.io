@@ -1,0 +1,10 @@
+[
+  {
+    "title": "从 Looped Transformer 到 Token-Wise Pondering",
+    "slug": "looped-transformer-token-wise-pondering",
+    "date": "2026-05-03",
+    "summary": "新主页的第一篇笔记：记录我现在关心的 adaptive computation 与预训练架构问题。",
+    "tags": ["Research", "Pretraining", "Pondering"],
+    "file": "2026-05-03-looped-transformer-token-wise-pondering.md"
+  }
+]
