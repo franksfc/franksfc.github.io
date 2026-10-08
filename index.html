@@ -111,11 +111,11 @@
           </article>
           <article class="lane">
             <div class="lane-top">
-              <span class="lane-code green">AC</span>
-              <h3>Adaptive Compute</h3>
+              <span class="lane-code green">AM</span>
+              <h3>Attention Mechanisms</h3>
             </div>
             <p>
-              探索 token-wise adaptive computation、latent thinking 与按难度分配计算预算的机制。
+              探索跨层信息交互与表示复用，设计更高效的语言模型注意力机制。
             </p>
           </article>
         </div>
@@ -141,6 +141,53 @@
               differentiable attention masking during pretraining with hard pruning at inference.
             </p>
             <a class="text-link" href="https://arxiv.org/abs/2603.02023" target="_blank" rel="noopener">Read on arXiv</a>
+          </article>
+
+          <article class="paper-card">
+            <div class="paper-meta">
+              <span>Under review</span>
+            </div>
+            <h3>StateLoop: Persistent State for Looped Transformers</h3>
+            <p class="authors">
+              <strong>Feichen Song</strong>, Boyi Zeng, He Li, Shixiang Song, Yiqin Hao, Zitong Wang,
+              Yizhou Yang, Yifan Liu, Ziwei He, Zhouhan Lin
+            </p>
+            <p>
+              A looped Transformer architecture that maintains a gated persistent state per token to retain
+              and reuse information across iterations, improving language modeling and downstream accuracy.
+            </p>
+          </article>
+
+          <article class="paper-card">
+            <div class="paper-meta">
+              <span>Under review</span>
+            </div>
+            <h3>LoopAhead: Parallelizing Recurrent Depth in Looped Transformers</h3>
+            <p class="authors">
+              <strong>Feichen Song</strong>, Boyi Zeng, Yiqin Hao, Shixiang Song, He Li, Yizhou Yang,
+              Zitong Wang, Yifan Liu, Ziwei He, Zhouhan Lin
+            </p>
+            <p>
+              A predictor-corrector framework that evaluates multiple recurrent depths in parallel for the same
+              token prefix, shortening the sequential decoding path while improving downstream accuracy.
+            </p>
+          </article>
+
+          <article class="paper-card">
+            <div class="paper-meta">
+              <span>arXiv:2606.05014</span>
+              <span>2026</span>
+            </div>
+            <h3>Depth-Attention: Cross-Layer Value Mixing for Language Models</h3>
+            <p class="authors">
+              Boyi Zeng, Yiqin Hao, Zitong Wang, Shixiang Song, He Li, <strong>Feichen Song</strong>,
+              Yifan Liu, Ziwei He, Xinbing Wang, Zhouhan Lin
+            </p>
+            <p>
+              A query-guided attention mechanism that mixes values across layers to improve language modeling
+              without adding parameters or persistent inference state beyond the standard KV cache.
+            </p>
+            <a class="text-link" href="https://arxiv.org/abs/2606.05014" target="_blank" rel="noopener">Read on arXiv</a>
           </article>
 
           <article class="paper-card">
@@ -181,7 +228,7 @@
 
       <section class="section blog-section" id="recent-blog" aria-labelledby="blog-title">
         <div class="section-heading">
-          <h2 id="blog-title">Recent Blog</h2>
+          <h2 id="blog-title">Blog</h2>
         </div>
         <div class="blog-shell">
           <div class="post-list recent-post-list" id="postList" aria-live="polite"></div>
