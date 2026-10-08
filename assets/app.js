@@ -100,6 +100,11 @@ async function loadPosts() {
     const posts = await response.json();
     const sorted = posts.slice().sort((a, b) => b.date.localeCompare(a.date));
 
+    if (!sorted.length) {
+      document.getElementById("blogEmpty").hidden = false;
+      return;
+    }
+
     list.innerHTML = sorted.map((post) => `
       <button class="post-card" type="button" data-slug="${escapeHtml(post.slug)}">
         <time datetime="${escapeHtml(post.date)}">${escapeHtml(post.date)}</time>
@@ -127,7 +132,7 @@ async function loadPosts() {
       reader.scrollIntoView({ behavior: prefersReducedMotion ? "auto" : "smooth", block: "start" });
       document.getElementById("closePost").addEventListener("click", () => {
         reader.hidden = true;
-        history.replaceState(null, "", "#recent-blog");
+        history.replaceState(null, "", "#posts");
       });
       history.replaceState(null, "", `#post=${encodeURIComponent(slug)}`);
     }
@@ -146,7 +151,7 @@ async function loadPosts() {
       openPost(decodeURIComponent(selected[1])).catch(() => {});
     }
   } catch {
-    list.innerHTML = '<p class="muted">No posts found.</p>';
+    list.innerHTML = '<p class="muted">文章暂时无法加载，请稍后重试。</p>';
   }
 }
 

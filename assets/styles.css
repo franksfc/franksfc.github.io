@@ -57,8 +57,10 @@ a {
 .brand {
   align-items: center;
   display: inline-flex;
+  flex-shrink: 0;
   font-weight: 800;
   gap: 10px;
+  white-space: nowrap;
 }
 
 .brand-mark {
@@ -87,7 +89,8 @@ nav a {
 }
 
 nav a:hover,
-nav a:focus-visible {
+nav a:focus-visible,
+nav a[aria-current="page"] {
   border-color: var(--line);
   color: var(--ink);
   outline: none;
@@ -544,6 +547,47 @@ h3 {
 
 .muted {
   color: var(--muted);
+}
+
+.blog-entry {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.84);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  display: flex;
+  font-size: 1.8rem;
+  font-weight: 800;
+  justify-content: space-between;
+  min-height: 130px;
+  padding: 28px;
+}
+
+.blog-entry:hover,
+.blog-entry:focus-visible {
+  border-color: var(--blue);
+  color: var(--blue);
+}
+
+.blog-entry:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 4px;
+}
+
+.blog-page {
+  min-height: 70vh;
+}
+
+.blog-index h1 {
+  font-size: clamp(3rem, 8vw, 5rem);
+}
+
+.blog-empty {
+  background: rgba(255, 255, 255, 0.84);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  margin: 0;
+  padding: 48px 24px;
+  text-align: center;
 }
 
 .blog-shell {
