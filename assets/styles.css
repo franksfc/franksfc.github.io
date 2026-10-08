@@ -555,11 +555,14 @@ h3 {
   border: 1px solid var(--line);
   border-radius: 8px;
   display: flex;
-  font-size: 1.8rem;
+  font-size: 1.1rem;
   font-weight: 800;
   justify-content: space-between;
-  min-height: 130px;
-  padding: 28px;
+  margin: 0 auto;
+  max-width: 100%;
+  min-height: 64px;
+  padding: 16px 22px;
+  width: 220px;
 }
 
 .blog-entry:hover,
